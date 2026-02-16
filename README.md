@@ -13,9 +13,9 @@ Uses **embeddings** + **vector search** + **RAG** (Retrieval-Augmented Generatio
 ## Tech Stack
 - **Backend**: ASP.NET Core (Minimal APIs or MVC)
 - **AI**: Semantic Kernel (or direct OpenAI API calls)
-- **Embeddings**: OpenAI / alternatives
+- **Embeddings**: OpenAI
 - **Vector Store**: [e.g., PostgreSQL + pgvector, Chroma, in-memory]
-- **Frontend**: [React + Vite / Blazor / Razor Pages]
+- **Frontend**: [Razor Pages]
 - **Testing**: xUnit (via PopChoice.Test)
 
 ## Setup & Run Locally

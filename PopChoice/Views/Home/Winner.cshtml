@@ -1,0 +1,13 @@
+﻿@model PopChoice.Data.Entities.MovieEmbedding
+
+
+
+@if (ViewBag.PreferenceText != null)
+{
+    <p><em>@ViewBag.PreferenceText</em></p>
+}
+
+<h2>@Model.Title</h2>
+<p>@Model.Description</p>
+
+<a asp-action="Index">Start over</a>

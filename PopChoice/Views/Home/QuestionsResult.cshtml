@@ -1,0 +1,11 @@
+﻿@Model QuestionsResult
+
+<h2>Your Answers</h2>
+
+<ul>
+    <li><strong>Favorite movie:</strong> @Model.FavoriteMovie</li>
+    <li><strong>Era:</strong> @Model.EraPreference</li>
+    <li><strong>Mood:</strong> @Model.Mood</li>
+</ul>
+
+<a asp-action="Questions">Go Back</a>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280 d18.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopChoice", "PopChoice\PopChoice.csproj", "{C27A4B7D-270A-4965-BC70-4D4BE7A06B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopChoice.Test", "PopChoice.Test\PopChoice.Test.csproj", "{229750A5-8D9C-4E8F-87A5-4F6232A3CABC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06999638-5900-4494-A630-CAE39818A0D3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C27A4B7D-270A-4965-BC70-4D4BE7A06B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27A4B7D-270A-4965-BC70-4D4BE7A06B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27A4B7D-270A-4965-BC70-4D4BE7A06B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27A4B7D-270A-4965-BC70-4D4BE7A06B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229750A5-8D9C-4E8F-87A5-4F6232A3CABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229750A5-8D9C-4E8F-87A5-4F6232A3CABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229750A5-8D9C-4E8F-87A5-4F6232A3CABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229750A5-8D9C-4E8F-87A5-4F6232A3CABC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EFB3EDA-AD01-4D05-BEBD-75B0BE5331E7}
+	EndGlobalSection
+EndGlobal

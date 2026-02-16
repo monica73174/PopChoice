@@ -1,0 +1,19 @@
+# Build
+bin/
+obj/
+node_modules/
+
+# VS
+.vs/
+
+# Database
+*.db
+popchoice.db
+
+# User-specific
+appsettings.Development.json
+*.user
+*.suo
+
+# Logs
+*.log

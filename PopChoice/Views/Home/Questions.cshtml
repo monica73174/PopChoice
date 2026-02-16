@@ -1,0 +1,21 @@
+﻿@model QuestionsViewModel 
+
+
+<form method="post">
+    <div>
+        <label>What’s your favorite movie and why?</label><br />
+        <textarea asp-for="FavoriteMovie"></textarea>
+    </div>
+
+    <div>
+        <label>Are you in the mood for something new or classic?</label><br />
+            <textarea asp-for="EraPreference"></textarea>
+    </div>
+
+    <div>
+        <label>Do you want something fun or serious?</label><br />
+            <textarea asp-for="Mood"></textarea>
+    </div>
+
+    <button type="submit">Let’s Go</button>
+</form>

@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "Results";
+}
+@model List<Movie>
+
+<h2>Search Results</h2>
+
+
+@if(!Model.Any()){
+<p>No results found.</p>
+}
+else{
+<form method="post" asp-action="Choose">
+    <input type="hidden" name="movieAId" value="@Model[0].Id" />
+    <input type="hidden" name="movieBId" value="@Model[1].Id" />
+    <ul>
+        @foreach (var movie in Model)
+        {
+            <li>
+                <strong>@movie.Title</strong> (@movie.Year)
+            </li>
+        }
+    </ul>
+    <button type="submit">Pick Winner</button>
+</form>
+}

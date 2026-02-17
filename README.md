@@ -20,3 +20,12 @@ Uses **embeddings** + **vector search** + **RAG** (Retrieval-Augmented Generatio
 
 ## Setup & Run Locally
 1. Clone the repo:
+
+2. Restore & build:
+   dotnet restore
+   dotnet build
+
+3. Set API keys (in `appsettings.json`, user secrets, or env vars):
+- `OpenAI:ApiKey=sk-...` (or equivalent for Groq/etc.)
+
+4. Run backend:
